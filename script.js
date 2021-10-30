@@ -1,7 +1,6 @@
-console.log('general kenobi'); //to make a console log
 
-document.write("hello world");      // write something on the html 
+var person = "smith";  // javascript will auto detect the types of variables and this is a string variable
 
-alert("hello world");  // show a pop up alert box with a close button
-
-document.write("<h1>learn j.s<h1>");  // make a h1 tag and display it on the html
+document.write(person);
+document.write("<br>");
+document.write (typeof(person));
