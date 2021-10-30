@@ -1,27 +1,25 @@
-var a =10;  //if else statement
 
-if (a>0){
-    document.write("<p> the number is positive</p>");
-}
-else if(a<0){
-    document.write("<p> the number is negetive");
-}
-else{
-    document.write("<p>the number is zero</p>")
+//for loop
+
+for(var i=1;i<=10;i++){
+    document.write("for loop is repeated "+i+" times <br>");
 }
 
-//switch statement
+document.write("<br>");
 
-var a = "B"  ;
 
-switch(a){
-    case "A":
-        document.write("Apple");
-    break;
-    case "B":
-        document.write("ball");
-    break;
-    default:
-        document.write("go away");
-    break;
+//while loop
+ var j=1;
+ while(j<=10){
+    document.write("while loop is repeated "+j+" times <br>");
+    j++;
 }
+
+document.write("<br>");
+
+ //do while loop
+var k=1;
+do{
+    document.write("do while loop is repeated "+k+" times <br>");
+    k++;
+}while(k<=10)
