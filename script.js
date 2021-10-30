@@ -1,40 +1,27 @@
-var a=10;
-var b=20;
+var a =10;  //if else statement
 
-document.write(a+b,"<br>"); //addition
-document.write(a-b,"<br>"); //subtraction
-document.write(a*b,"<br>"); //multiplication
-document.write(a/b,"<br>"); //division
-document.write(a%b,"<br>"); //modules
-document.write(a++,"<br>"); //increment
-document.write(a--,"<br>"); //decrement
-document.write(b**2,"<br>"); //exponet
+if (a>0){
+    document.write("<p> the number is positive</p>");
+}
+else if(a<0){
+    document.write("<p> the number is negetive");
+}
+else{
+    document.write("<p>the number is zero</p>")
+}
 
-//assignment operators
+//switch statement
 
-var num =10;
-var x=4;
+var a = "B"  ;
 
-num += x; // num -= x; num *=x; num/=x; num%=x ;
-document.write(num);
-
-
-document.write("<br>")
-// comparison operators 
-
-var c1= 10;
-var c2= 20;
-var c3= "10";
-
-document.write (c1==c2, "<br>"); //check the values of the variables
-document.write (c3==c1, "<br>"); 
-document.write (c3 === c1, "<br>");  // check the values and the datatypes of the variables 
-// != , >= , <= ;
-
-
-
-// logical operators
-
-document.write(c1==10 && c2==20); // true if both statements are true 
-document.write(c1==10 || c2==20); // true if one of the statements are true
-document.write(!(c1==10));  // true if the codition if the condition is not true
+switch(a){
+    case "A":
+        document.write("Apple");
+    break;
+    case "B":
+        document.write("ball");
+    break;
+    default:
+        document.write("go away");
+    break;
+}
